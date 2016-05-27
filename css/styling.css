@@ -3,9 +3,10 @@
     src: url("../fonts/Ailerons-Typeface.otf") format("opentype"); /*URL to font*/
 }
 
+/* All HTML Files */
+
 body {
     background-color: black;
-    text-align: center;
     color: white;
     font-family: 'Ailerons';
     max-width: 100%;
@@ -13,9 +14,16 @@ body {
     src: url("../fonts/Ailerons-Typeface.otf") format("opentype");
 }
 
+.upper_bar{
+    min-height: 114.29px;
+}
+
 .main {
+    text-align: center;
     margin-top: 260px;
 }
+
+/* Index.html */
 
 .maintitle {
     font-size: 90px;
@@ -23,4 +31,11 @@ body {
 
 .soon {
     font-size: 60px;
+}
+
+/* Mission.html */
+
+.phoria_side {
+    text-align: left;
+    font-size: 80px;
 }
