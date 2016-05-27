@@ -10,8 +10,11 @@ body {
     font-family: 'Ailerons';
     max-width: 100%;
     max-height: 100%;
-    margin-top: 260px;
     src: url("../fonts/Ailerons-Typeface.otf") format("opentype");
+}
+
+.main {
+    margin-top: 260px;
 }
 
 .maintitle {
@@ -20,17 +23,4 @@ body {
 
 .soon {
     font-size: 60px;
-}
-
-.line {
-    align-content: center;
-    width: 60%;
-}
-
-.about {
-    text-align: right;
-}
-
-.terms {
-    text-align: left;
 }
