@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Ailerons; /*a name to be used later*/
+    src: url("../fonts/Ailerons-Typeface.otf") format("opentype"); /*URL to font*/
+}
+
+
+/* Overwriting bootstrap files*/
+@media all and (min-width:992px){
+    .shopping {
+        width: 5%;
+    }
+}
+
+/* All HTML Files */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Ailerons';
+    max-width: 100%;
+    max-height: 100%;
+    src: url("../fonts/Ailerons-Typeface.otf") format("opentype");
+}
+
+/* Warning, PHORIA on the side is affected
+by the changes occuring on the upper_bar */
+.upper_bar{
+    min-height: 114.29px;
+}
+
+/* This affects the SIDEBAR */
+.main {
+    text-align: center;
+}
+
+.sidebar {
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.account {
+    font-size: 25px;
+}
+
+.maintitle{
+    margin-right: 250px;
+}
+
+.soon {
+    margin-right: 250px;
+}
+
+/* Index.html */
+
+.maintitle {
+    font-size: 170px;
+}
+
+.soon {
+    font-size: 60px;
+}
+
+.account {
+    margin-left: 20px;
+}
+
+.settings {
+    padding: 0px;
+    margin: 0px;
+}
+/* Mission.html */
+
+/* This is the PHORIA LEFT EDGED*/
+.phoria_side {
+    text-align: left;
+    font-size: 80px;
+}
